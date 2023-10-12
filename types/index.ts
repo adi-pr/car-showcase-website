@@ -47,3 +47,11 @@ export interface CustomFilterProps {
   title: string
   options: OptionProps[]
 }
+
+export interface searchParams {
+  manufacturer?: string;
+  year?: number;
+  fuel?: string;
+  limit?: number;
+  model?: string;
+}
